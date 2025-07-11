@@ -58,4 +58,4 @@ codegen-units = 1
 
 [patch.crates-io]
 resvg = { git = "https://github.com/zimond/resvg", rev = "3495d870" }
-woff2 = { git="https://github.com/yisibl/woff2-rs", branch="fix-total-compressed-size" }
+woff2 = { git = "https://github.com/zakideee/woff2-rs", branch="fix-modern-rust-build" }
