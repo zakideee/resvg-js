@@ -9,6 +9,8 @@ This changelog also contains important changes in dependencies.
 
 ## [Unreleased]
 
+## [2.6.3-alpha.0] - 2025-09-24
+
 - Add `padding` parameter to `cropByBBox()` API to specify the bleed area around the bounding box. Default is `0`. Thanks to @yisibl.
   This is similar to the padding property in CSS. If the width parameter is not specified, it will increase the width and height of the output image.
 
@@ -643,7 +645,8 @@ The first official version, use [resvg 0.18.0](https://github.com/RazrFalcon/res
 - Support custom fonts and system fonts.
 - Supports setting the background color of PNG.
 
-[unreleased]: https://github.com/yisibl/resvg-js/compare/v2.6.2...HEAD
+[unreleased]: https://github.com/yisibl/resvg-js/compare/2.6.3-alpha.0...HEAD
+[2.6.3-alpha.0]: https://github.com/yisibl/resvg-js/compare/v2.6.2...v2.6.3-alpha.0
 [2.6.2]: https://github.com/yisibl/resvg-js/compare/v2.6.1...v2.6.2
 [2.6.1]: https://github.com/yisibl/resvg-js/compare/v2.6.0...v2.6.1
 [2.6.1-beta.0]: https://github.com/yisibl/resvg-js/compare/v2.6.0...v2.6.1-beta.0
