@@ -9,6 +9,14 @@ This changelog also contains important changes in dependencies.
 
 ## [Unreleased]
 
+## [2.6.3-alpha.2] - 2025-09-26
+
+- feat: the `padding` of `cropByBBox()` no longer scales with image dimensions
+
+  Previously, padding scaled proportionally with changes to the output image dimensions. Now, regardless of the width/height values set in fitTo, the padding remains constant.
+
+  When the padding exceeds half of the set dimensions, the output image will become transparent.
+
 ## [2.6.3-alpha.1] - 2025-09-24
 
  - Add a `square` parameter to `cropByBBox()` so it always generates square images. Thanks to @yisibl.
